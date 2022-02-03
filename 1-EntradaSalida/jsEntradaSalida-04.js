@@ -1,6 +1,6 @@
 /*Comentario
 Adriana Maria Davalos Insaurralde
-Ejercicio 4*/
+Ejercicio 4* version mejorada/
 /* 
 Debemos lograr tomar un dato por 'PROMPT' 
 y lo muestro por 'ID' al presionar el botón 'mostrar'
@@ -11,7 +11,7 @@ function mostrar()
 
 	nombreIngresado= prompt("Ingrese su Nombre");
 
-	txtIdNombre.value = nombreIngresado;
+	document.getElementById("txtIdNombre").value = nombreIngresado;
 
 	
 }
