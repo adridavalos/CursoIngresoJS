@@ -1,11 +1,23 @@
+// Tp 5 switch
+// Adriana Maria Davalos Insaurralde
 function mostrar()
 {
-	//tomo la hora
-	var horaDelDia =txtIdHora.value;
-	alert(horaDelDia);
-	
-	
+	let horaDiaIngresada;
 
+	horaDiaIngresada = parseInt(document.getElementById("txtIdHora").value);
 
+	switch (horaDiaIngresada) {
+
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+
+			alert("Es de mañana");
+			
+			break;
+	
+	}
 
 }//FIN DE LA FUNCIÓN
